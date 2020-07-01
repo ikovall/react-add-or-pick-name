@@ -1,38 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .App {
-  text-align: center;
+    width: 98%;
+    margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.boy {
+    background-color: #8BCDCD;
+    border-radius: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.girl {
+    background-color: #f1c5c5;
+    border-radius: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.ml2 {
+    margin-left: 10px;
+}
+
+.card {
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.sex {
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.btn {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.mb2 {
+    margin-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav li {
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav li a {
+    text-decoration: none;
+}
+.favorite {
+    margin-left: 3px;
+}
+.favorite:hover {
+    background-color: red;
+    color: red
 }
